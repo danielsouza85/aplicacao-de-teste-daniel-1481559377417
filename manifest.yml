@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aplicacao-de-teste-daniel
+  host: aplicacao-de-teste-daniel
+  disk_quota: 1024M
+  services:
+  - aplicacao-de-teste-daniel-AdvancedMobileAccess
+  - aplicacao-de-teste-daniel-imfpush
+  - aplicacao-de-teste-daniel-cloudantNoSQLDB
